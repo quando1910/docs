@@ -37,12 +37,12 @@ Review the below minimum operating requirements before you install *Sales Agent*
 [API documentation](https://shopware.stoplight.io/docs/swag-sales-agent/) provides detailed information about the available endpoints and their functionalities.
 
 
-## Architecuture
+## Architecture
 
 ![ ](../../assets/sales-agent-architecture.jpg)
 
 The architecture depicted in the image shows a system with the following components:
 - **Frontend**: Using Vue.
 - **Backend**: Nuxt uses Nitro as its server engine.
-- **Database**: Uses MySQL. Nuxt interacts with the backend through Prisma.
+- **Database**: Uses MySQL. Nuxt interacts with the backend through [Prisma](https://www.prisma.io/).
 - **Cache Layer**: Uses Redis. Nitro provides a caching system built on top of the storage layer.
