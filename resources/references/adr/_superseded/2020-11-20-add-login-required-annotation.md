@@ -9,8 +9,10 @@ tags: [annotation, login, customer, api, store-api]
 
 ::: info
 This document represents an architecture decision record (ADR) and has been mirrored from the ADR section in our Shopware 6 repository.
-You can find the original version [here](https://github.com/shopware/shopware/blob/trunk/adr/2020-11-20-add-login-required-annotation.md)
+You can find the original version [here](https://github.com/shopware/shopware/blob/trunk/adr/_superseded/2020-11-20-add-login-required-annotation.md)
 :::
+
+## Superseded by [Move controller level annotation into Symfony route annotation](../2022-02-09-controller-configuration-route-defaults)
 
 ## Context
 Some routes for the `sales-channel-api` and the `store-api/storefront` depend on `SalesChannelContext` to identify whether the Customer is logged or not.
